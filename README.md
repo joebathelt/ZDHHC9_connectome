@@ -40,13 +40,16 @@ Xia, M., Wang, J., & He, Y. (2013). BrainNet Viewer: A Network Visualization Too
 ### Overview
 Here is a brief description of the scripts and their use:
 
-**FAconnectome.py**: this script contains a workflow that takes raw diffusion-weighted NifTI files and generates an FA-weighted connectivity matrix for each input file. This requires an ROI file in MNI space.
+**DKAtlas_ROIs.py**: functions to get labels corresponding to regions in the Desikan-Killiany atlas from a FreeSurfer look-up table. Also contains a function to remove non-cortical ROIs. 
+
+**FAconnectome_Workflow.py**: this script contains a workflow that takes raw diffusion-weighted NifTI files and generates an FA-weighted connectivity matrix for each input file. This requires an ROI file in MNI space.
 
 **GeneExpression_on_CorticalSurface.py**: function used to map gene expression data on the cortical surface
 
+**GeneExpression_vs_GraphMeasures.R**: R script for statistical analyses, i.e. group comparisons and regression modelling
+
 **GraphTheoryAnalysis.py**: this script calculates the graph metrics that were analysed in the study
 
-**DKAtlas_ROIs.py**: functions to get labels corresponding to regions in the Desikan-Killiany atlas from a FreeSurfer look-up table. Also contains a function to remove non-cortical ROIs. 
 
 #### Grpahical representation of the FA connectome workflow
 ![FA connectome workflow](graph.dot.png)
