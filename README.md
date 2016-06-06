@@ -34,7 +34,7 @@ Tournier, J.-D., Calamante, F., & Connelly, A. (2012, feb). MRtrix: Diffusion tr
 
 Wang, R., Benner, T., Sorensen, A. G., Wedeen, V. J. (2007). Diffusion toolkit: A software package for diffusion imaging data processing. Proc. Intl. Soc. Mag. Reson. Med. 15. http://cds.ismrm.org/ismrm-2007/files/03720.pdf
 
-Xia, M., Wang, J., & He, Y. (n.d.). BrainNet Viewer: A Network Visualization Tool for Human Brain Connectomics. Plos One, 8(7), e68910. http://doi.org/10.1371/journal.pone.0068910
+Xia, M., Wang, J., & He, Y. (2013). BrainNet Viewer: A Network Visualization Tool for Human Brain Connectomics. Plos One, 8(7), e68910. http://doi.org/10.1371/journal.pone.0068910
 
 
 ### Overview
