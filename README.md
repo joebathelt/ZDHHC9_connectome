@@ -19,7 +19,7 @@ Subsequently, a 12 degree-of-freedom affine transform between each participantâ€
 For structural connectome analysis, regions of interests (ROIs) were based on the Desikan-Killiany parcellation of the MNI template (Klein & Tourville 2012) with 34 ROIs per hemisphere. The ROIs filled the space between the cortical grey and white matter so that streamlines would terminate at the edges of the ROI. For each pairwise combination of ROIs, the number of streamlines intersecting both ROIs was estimated and transformed to a density map. This density map was binarized and multiplied with the FA map to obtain the FA value corresponding to the connection between the ROIs. This procedure was implemented in-house based on DiPy v0.8.0 functions (Garyfallidis 2014). Only cortical ROIs were considered in the current analysis, because Allen Brain atlas data could only be mapped for these ROIs (French & Paus, 2015). Visualizations of the structural connectome were generated using the BrainNet Viewer toolbox (Xia et al., 2013). 
 
 
-*References*:   
+**References**:   
 Coupe, P., Yger, P., Prima, S., Hellier, P., Kervrann, C., & Barillot, C. (2008, apr). An Optimized Blockwise Nonlocal Means Denoising Filter for 3-D Magnetic Resonance Images. IEEE Transactions on Medical Imaging, 27(4), 425â€“441.
 
 French, L., & Paus, T. (2015, sep). A FreeSurfer view of the cortical transcriptome generated from the Allen Human Brain Atlas. Front. Neurosci., 9.
@@ -47,4 +47,7 @@ Here is a brief description of the scripts and their use:
 **GraphTheoryAnalysis.py**: this script calculates the graph metrics that were analysed in the study
 
 **DKAtlas_ROIs.py**: functions to get labels corresponding to regions in the Desikan-Killiany atlas from a FreeSurfer look-up table. Also contains a function to remove non-cortical ROIs. 
+
+#### Grpahical representation of the FA connectome workflow
+![FA connectome workflow](graph.dot.png)
 
