@@ -305,7 +305,7 @@ def FA_connectome(subject_list,base_directory,out_directory):
 
 	from nipype import SelectFiles
 	import os
-	registration_reference = os.environ['FSLDIR'] + '/data/standard/MNI152_T1_1mm_brain.nii.gz'
+	registration_reference = os.environ['FSLDIR'] + '/data/standard/FMRIB58_FA_1mm.nii.gz'
 	nodes = list()
 
 	#====================================
