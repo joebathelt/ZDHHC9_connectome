@@ -137,10 +137,11 @@ class FAconnectome(BaseInterface):
 
 	def _run_interface(self, runtime):
 		# Loading the ROI file
+	    from dipy.tracking import utils 
 	    import nibabel as nib
 	    import numpy as np
-	    from dipy.tracking import utils 
-
+	    import os 
+	    
 	    img = nib.load(self.inputs.ROI_file)
 	    data = img.get_data()
 	    affine = img.get_affine()
