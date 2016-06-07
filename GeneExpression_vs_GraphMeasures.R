@@ -130,7 +130,7 @@ fit <- lm(ZDHHC9.expression ~ ZDHHC9.Node.Strength + ZDHHC9.Clustering.Coefficie
 coefficients(fit)
 
 #====================================================================================
-# Structural equation modelling
+# Modelling
 setwd("/Users/joebathelt1/Documents/Other_Projects/zDHHC9/connectivity/results/")
 data <- read.csv('data_for_SEM.csv')
 values <- data[,c('NodeStrength','ClustCoeff','BetweenCent','LocEff')]
