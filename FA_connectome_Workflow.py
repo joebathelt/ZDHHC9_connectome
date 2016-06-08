@@ -175,7 +175,7 @@ class FAconnectome(BaseInterface):
 		ROI_volumes = pd.read_csv('/home/jb07/CALM/DWI/FA_connectome/Atlas_volumes.csv')
 
 		# Getting the FA file
-		img = nib.load(FA_file)
+		img = nib.load(self.inputs.FA_file)
 		FA_data = img.get_data()
 		FA_affine = img.get_affine()
 
