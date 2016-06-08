@@ -181,7 +181,7 @@ class FAconnectome(BaseInterface):
 
 		# Loading the streamlines
 		from nibabel import trackvis
-		streams, hdr = trackvis.read(trackfile,points_space='rasmm')
+		streams, hdr = trackvis.read(self.inputs.trackfile,points_space='rasmm')
 		streamlines = [s[0] for s in streams]
 		streamlines_affine = trackvis.aff_from_hdr(hdr,atleast_v2=True)
 
