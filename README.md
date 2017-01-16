@@ -46,5 +46,5 @@ Here is a brief description of the scripts and their use:
 **expression_data**: expression data obtained from the Allen Brain atlas following French & Paus 2015
 
 #### Grpahical representation of the FA connectome workflow
-![connectome pipeline](graph.dot.png)
+![connectome pipeline](Figure1.png)
 
