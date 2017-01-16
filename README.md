@@ -21,7 +21,7 @@ The weight of the connection matrices was based on fractional anisotropy (FA). T
 ### Overview
 Here is a brief description of the scripts and their use:
 
-1. Processing
+#### Processing
 
 **connectome_pipeline.py**: this script calculates the connectivity matrices based on a diffusion-weighted volume and a T1-weightes image.
 
@@ -38,7 +38,7 @@ Here is a brief description of the scripts and their use:
 **FreeSurfer_templates**: FreeSurfer template (fsaverage)
 
 
-2. Analysis
+#### Analysis
 
 **GeneExpression_on_CorticalSurface.py**: function used to map gene expression data on the cortical surface
 
