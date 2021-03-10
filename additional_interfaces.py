@@ -292,7 +292,7 @@ class CalcMatrix(BaseInterface):
         np.savetxt(base + '_' + str(self.inputs.threshold) + '_matrix.txt', matrix, delimiter='\t')
 
         # Density matrix normalized by ROI size
-        ROI_sizes = [np.sum(labels[labels == ROI]) for ROI in np.unique(labels)[1:]]
+        ROI_sizes = [np.sum(labels == ROI) for ROI in np.unique(labels)[1:]]
         size_matrix = np.zeros(shape=np.repeat(len(np.unique(labels)[1:]),2))
 
         for ROI1 in range(0,len(np.unique(labels)[1:])):
